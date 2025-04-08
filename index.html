@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="A Freelance app Where both freelancers and client can collaborate." />
+    <link rel="apple-touch-icon" href="logo.ico" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="Description" content="Well organized and easy to understand Website. The Artdev Portfolio is a website that shows all my skills on be a developer and how to contact me. and more.">
+    <link rel="preload" href="lib/fonts/fontawesome8deb.woff2?14663396" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="lib/fonts/source-code-pro-v14-latin-regular.woff2" as="font" type="font/woff2"
+        crossorigin>
+    <link rel="preload" href="lib/fonts/roboto-mono-v13-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="lib/fonts/source-sans-pro-v14-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="lib/fonts/source-sans-pro-v14-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="lib/fonts/freckle-face-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" href="logo.ico" />
+    <title>Portofolio Artdev</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <h2>Artdev Portfolio</h2>
+        <nav>
+
+            <ul id="menu">
+                <button id="close-menu-toggle" onclick="closeNav()">✖️</button>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+        <button id="theme-toggle">🌙</button>
+        <button id="nav-toggle" onclick="openNav()">≣</button>
+    </header>
+
+    <!-- Left Column -->
+
+    <div class="left-menu">
+        <div class="w3-container">
+            <div style="display: flex;justify-content: center;padding: 10px 0;"><img width="80px" height="80px" src="img/userprofile5.png" alt="profile pic"></div>
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Developer Tat Artdev</p>
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Status Senior dev</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Douala, Cameroon</p>
+            <p><a style="text-decoration: none;" href="mailto:tatchouarthur@gmail.com">✉️ tatchouarthur@gmail.com</a>
+            </p>
+            <p>📞 +237 652949715</p>
+            <hr>
+
+            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+            <p>Html</p>
+            <div style="border-radius: 50px;height: 20px;" class="progress">
+                <div class="progress-bar2" style="width:95%">95%</div>
+            </div>
+            <p>Css</p>
+            <div style="border-radius: 50px;height: 20px;" class="progress">
+                <div class="progress-bar2" style="width:85%;">
+                    85%
+                </div>
+            </div>
+            <p>JavaScript</p>
+            <div style="border-radius: 50px;height: 20px;" class="progress">
+                <div class="progress-bar2" style="width:75%">75%</div>
+            </div>
+            <p>Nodejs</p>
+            <div style="border-radius: 50px;height: 20px;" class="progress">
+                <div class="progress-bar2" style="width:65%">70%</div>
+            </div>
+            <p>ReactJs</p>
+            <div style="border-radius: 50px;height: 20px;" class="progress">
+                <div class="progress-bar2" style="width:85%">85%</div>
+            </div>
+            <p>ExpressJs</p>
+            <div style="border-radius: 50px;height: 20px;" class="progress">
+                <div class="progress-bar2" style="width:70%">70%</div>
+            </div>
+            <p>Database (MongoDB and MySQL)</p>
+            <div style="border-radius: 50px;height: 20px;" class="progress">
+                <div class="progress-bar2" style="width:60%">60%</div>
+            </div>
+            <br>
+
+            <p class="w3-large w3-text-theme"><b><i
+                        class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+            <p>English</p>
+            <div style="border-radius: 50px;height: 25px;" class="progress">
+                <div class="progress-bar2" style="width:100%"></div>
+            </div>
+            <p>French</p>
+            <div style="border-radius: 50px;height: 25px;" class="progress">
+                <div class="progress-bar2" style="width:80%"></div>
+            </div>
+            <p>Italian</p>
+            <div style="border-radius: 50px;height: 25px;" class="progress ">
+                <div class="progress-bar2" style="width:25%"></div>
+            </div>
+            <br>
+        </div>
+    </div><br>
+
+    <!-- End Left Column -->
+
+
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to my Portfolio</h2>
+        <p>Hi, I'am a Tat Artdev passionate developer specializing in modern web applications.</p>
+        <a href="resume.pdf" class="btn">⬇️Download Resume</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I specialize in web devlopment using modern technologies.</p>
+        <h3>Skills</h3>
+        <div class="skill">
+            <span>HTML and CSS</span>
+            <div class="progress">
+                <div class="progress-bar html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>javaScript</span>
+            <div class="progress">
+                <div class="progress-bar js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>React and Node.js</span>
+            <div class="progress">
+                <div class="progress-bar react"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Building responsive and scalable websites.</p>
+            </div>
+            <div class="service-card">
+                <h3>Mobile Development</h3>
+                <p>Creating user-friendly mobile applications.</p>
+            </div>
+            <div class="service-card">
+                <h3>API Development</h3>
+                <p>Designing secure and efficient APIs.</p>
+            </div>
+            <div class="service-card">
+                <h3>Database Management and Creation</h3>
+                <p>Create, Store and Retrieved your data securely.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Chat Web App</h3>
+                <p>Real-time chat with Socket.io and React.</p>
+            </div>
+            <div class="project-card">
+                <h3>Freelance Platform</h3>
+                <p> ReactMarketplace with Mobile Money intergration.</p>
+            </div>
+            <div class="project-card">
+                <h3>Investment Web Platform</h3>
+                <p> investment plateform with daily task and Mobile Money intergration.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="statistics-proj">
+        <span>10</span>
+        <h3>Complete Projects</h3>
+    </div>
+
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="project-grid">
+            <div class="blog-post">
+                <h3>How to Build a Scalable Web App</h3>
+                <p>Learn the best practices for building scalable applications.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Best JavaScript Frameworks in 2025</h3>
+                <p>A comparison of the top javaScript frameworks.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>How to Create a React app</h3>
+                <p>Some Use full CLI command to start react app.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="statistics-proj">
+        <span>08</span>
+        <h3>Complete jobs</h3>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="project-grid">
+            <div class="testimonial">
+                <img src="img/userprofile5.png" alt="profile 1">
+                <div class="comment">
+                    <h4>Chessue Lazare</h4>
+                    <p>An excellent developer with great attention to detail !</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="img/userprofile5.png" alt="">
+                <div class="comment">
+                    <h4>Kameni Caroline</h4>
+                    <p>Delivered a high-quality project on time.</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="img/userprofile5.png" alt="">
+                <div class="comment">
+                    <h4>W Martin</h4>
+                    <p>Very reliable and efficiently provide products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="statistics-proj">
+        <span>11</span>
+        <h3>Satisfied clients </h3>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="username" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="Your name" required>
+            <textarea type="text" id="message" placeholder="Your name" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Artdev Portfolio. All Rights Reserved.</p>
+        <p>-Douala, Cameroon <span>Contact : +237 652949715 on Whatsapp or mailto: tatchouarthur@gmail.com</span></p>
+    </footer>
+
+</body>
+
+</html>
